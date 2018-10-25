@@ -91,13 +91,16 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
+            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.radioButton4.ForeColor = System.Drawing.Color.Brown;
             this.radioButton4.Location = new System.Drawing.Point(102, 185);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(85, 17);
+            this.radioButton4.Size = new System.Drawing.Size(119, 24);
             this.radioButton4.TabIndex = 36;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.UseVisualStyleBackColor = false;
             // 
             // radioButton3
             // 
@@ -227,7 +230,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Final_quiz.Properties.Resources.estadps_unidos_guerra_1400x800_0917_1;
+            this.ClientSize = new System.Drawing.Size(794, 450);
             this.Controls.Add(this.Proximo3);
             this.Controls.Add(this.FinalizarTema1);
             this.Controls.Add(this.Proximo7);
