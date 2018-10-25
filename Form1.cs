@@ -224,6 +224,11 @@ namespace Final_quiz
             tela_temas.ShowDialog();
             this.Visible = true;
         }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
     
